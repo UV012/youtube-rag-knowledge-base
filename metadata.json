@@ -1,0 +1,7 @@
+{
+  "name": "Digital Study Carrel",
+  "description": "YouTube Study RAG tool for ingesting lectures, transcribing with timestamps, indexing semantic vectors, and querying with timestamped citations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

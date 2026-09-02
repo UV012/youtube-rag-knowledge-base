@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display-lg: "Newsreader", serif;
+  --font-headline-md: "Newsreader", serif;
+  --font-headline-md-mobile: "Newsreader", serif;
+  --font-body-lg: "Hanken Grotesk", sans-serif;
+  --font-body-md: "Hanken Grotesk", sans-serif;
+  --font-data-mono: "JetBrains Mono", monospace;
+  --font-label-caps: "JetBrains Mono", monospace;
+
+  --color-surface: #fff7fa;
+  --color-surface-dim: #e6d5e2;
+  --color-surface-bright: #fff7fa;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #ffeffb;
+  --color-surface-container: #fae9f6;
+  --color-surface-container-high: #f4e3f1;
+  --color-surface-container-highest: #eedeeb;
+  --color-on-surface: #221922;
+  --color-on-surface-variant: #47464d;
+  --color-inverse-surface: #372d37;
+  --color-inverse-on-surface: #fdecf9;
+  --color-outline: #78767e;
+  --color-outline-variant: #c8c5ce;
+  --color-surface-tint: #5c5c78;
+  --color-primary: #0d0c25;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #22223b;
+  --color-on-primary-container: #8a89a7;
+  --color-inverse-primary: #c5c3e4;
+  --color-secondary: #595d78;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #dbdeff;
+  --color-on-secondary-container: #5d617d;
+  --color-tertiary: #120f0c;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #282421;
+  --color-on-tertiary-container: #918b86;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-primary-fixed: #e2dfff;
+  --color-primary-fixed-dim: #c5c3e4;
+  --color-on-primary-fixed: #191932;
+  --color-on-primary-fixed-variant: #44445f;
+  --color-secondary-fixed: #dee0ff;
+  --color-secondary-fixed-dim: #c1c4e5;
+  --color-on-secondary-fixed: #161a32;
+  --color-on-secondary-fixed-variant: #414560;
+  --color-background: #fff7fa;
+  --color-on-background: #221922;
+  --color-surface-variant: #eedeeb;
+}
+
+/* Material Symbols configuration */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.fill,
+.material-symbols-outlined[data-weight="fill"] {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Clean library scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #c8c5ce;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #78767e;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #47464d;
+}
+
+/* Active transcript segment */
+.transcript-segment.active {
+  background-color: #dbdeff;
+  border-left-color: #0d0c25;
+}
